@@ -1,0 +1,74 @@
+/* style.css */
+
+/* Gaya dasar untuk seluruh halaman */
+/* framelayout.css */
+
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #353535;
+    color: #ffff;
+}
+
+/* Gaya untuk judul halaman */
+h1 {
+    color: #009ac0;
+    text-align: center;
+}
+
+/* Gaya untuk form */
+form {
+    background-color: #636363;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #009ac0;
+}
+
+/* Gaya untuk input */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009ac0;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007b96;
+}
+
+/* Gaya untuk link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

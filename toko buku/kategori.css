@@ -1,0 +1,38 @@
+body, ul, li, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #353535;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#sidebar {
+    float: right;
+    width: 30%; /* Sesuaikan lebar sidebar sesuai kebutuhan */
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #009ac0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

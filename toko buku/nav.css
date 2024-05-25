@@ -1,0 +1,114 @@
+/* framelayout.css */
+
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #353535;
+    color: #f8f8f8;
+}
+
+/* Bungkus semua konten */
+#wrap {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+#header {
+    background-color: #009ac0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+/* Navigasi */
+#nav {
+    background-color: #252525;
+    overflow: hidden;
+}
+
+#nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#nav ul li a:hover {
+    background-color: #009ac0;
+    color: #fff;
+}
+
+/* Pencarian */
+#nav form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#nav form input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+
+#nav form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #009ac0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nav form input[type="submit"]:hover {
+    background-color: #007b96;
+    border-radius : 5px;
+}
+
+/* Konten Utama */
+#main {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+/* Sidebar */
+#sidebar {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: #ffff;
+    color: white;
+}
+
+#sidebar h2 {
+    color: #ffff;
+}
+
+/* Footer */
+#footer {
+    clear: both;
+    background-color: #009ac0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

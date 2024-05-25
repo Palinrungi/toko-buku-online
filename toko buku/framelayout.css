@@ -1,0 +1,48 @@
+   body, html {
+        margin-top: 0;
+        padding: 0;
+        color: #fffdfd;
+        background-color: #6b6b6b; /* Ganti warna background sesuai kebutuhan */
+        font: 12px Verdana, Arial, Helvetica, sans-serif;
+    }
+
+    table.buku {
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-weight: normal;
+        font-size: 11px;
+        color: #002;
+        width: 600px;
+        background-color: rgb(126, 126, 126);
+        border: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    table.buku td {
+        background-color: rgb(85, 85, 85);
+        color: #eee;
+        padding: 4px;
+        text-align: left;
+        border: 1px solid #000; /* Ubah warna border sesuai kebutuhan */
+    }
+
+    table.buku td.hed {
+        background-color: #ccc;
+        color: #7a7979;
+        padding: 4px;
+        text-align: center;
+        border-bottom: 2px solid #000; /* Ubah warna border sesuai kebutuhan */
+        font-size:14px;
+        font-weight:bold;
+    }
+
+    body #haldepan {
+        background-color: rgb(56, 56, 56);
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    body #tabel {
+        padding: 11px;
+    }

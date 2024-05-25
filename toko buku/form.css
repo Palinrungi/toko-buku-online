@@ -1,0 +1,75 @@
+/* framelayout.css */
+
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #353535;
+    color: #f8f8f8;
+}
+
+/* Gaya untuk judul halaman */
+h1, h2 {
+    color: #009ac0;
+    text-align: center;
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Gaya untuk header tabel */
+th {
+    background-color: #009ac0;
+    color: rgb(63, 63, 63);
+    padding: 10px;
+    text-align: left;
+}
+
+/* Gaya untuk baris tabel */
+tr:nth-child(even) {
+    background-color: #696969;
+}
+
+/* Gaya untuk sel tabel */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Gaya untuk link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #007b96;
+}
+
+/* Gaya untuk paragraf */
+p {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk teks tebal */
+strong {
+    color: #fff;
+}
+
+/* Gaya untuk teks bergaris bawah */
+u {
+    text-decoration: underline;
+    color: #009ac0;
+}
+

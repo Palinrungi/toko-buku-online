@@ -1,0 +1,42 @@
+/* framelayout.css */
+
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:  #353535;
+    color: #ffff;
+    line-height: 1.6;
+}
+
+/* Gaya untuk judul halaman */
+h2 {
+    color: #009ac0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk paragraf */
+p {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk teks tebal */
+strong {
+    color: #009ac0;
+}
+
+/* Gaya untuk teks bergaris bawah */
+u {
+    text-decoration: underline;
+}
+
+/* Gaya untuk link */
+a {
+    color: #009ac0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
