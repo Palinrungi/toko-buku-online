@@ -59,8 +59,6 @@ CREATE TABLE PEMBELI (
 );
 
 
-show tables;
-
 INSERT INTO KATEGORI(KATEGORI_NAMA)
 VALUES ( 'Database');
 INSERT INTO KATEGORI(KATEGORI_NAMA)
@@ -90,7 +88,6 @@ INSERT INTO PENGARANG VALUES('P10','iwan_Gunardi');
 INSERT INTO PENGARANG VALUES( 'P11', 'Iman Teguh');
 INSERT INTO PENGARANG VALUES('P12', 'Abdul Ghozali');
 INSERT INTO PENGARANG VALUES ('P13', 'Tegar Sanjaya');
-
 INSERT INTO PENERBIT VALUES('PB01', 'ANGKASA RAYA');
 INSERT INTO PENERBIT VALUES('PB02', 'CAHAYA ILMU PERSADA');
 INSERT INTO PENERBIT VALUES('PB03', 'SINAR ILMU PERKASA');
@@ -99,8 +96,6 @@ INSERT INTO PENERBIT VALUES('PB05', 'SINAR RAYA');
 INSERT INTO PENERBIT VALUES('PB06', 'INFORMATIKA');
 INSERT INTO PENERBIT VALUES('PB07', 'TIGA SEKAWAN');
 INSERT INTO PENERBIT VALUES('PB08', 'CIPTA ILMU');
-
-
 
 
 INSERT INTO BUKU VALUES('222-34222-1-0',
@@ -166,35 +161,6 @@ INSERT INTO BUKU VALUES('999-11555-2-1',
 INSERT INTO BUKU VALUES('888-96771-3-3',
 'Panduan C++', 'PB06',
 '2015/07/15', 490, NULL, 65000);
-
-select * from buku;
-
-create table pembeli (
-    Nama_Pembeli varchar(35),
-    Buku_Judul varchar(75),
-    Jumlah_Item int,
-    Buku_Harga DECIMAL,
-    total_harga decimal not NULL,
-    ID_Pembeli int AUTO_INCREMENT PRIMARY KEY
-);
-
-drop table pembeli;
-
-select * from pembeli
-
-show tables;
-
-desc link_buku_kategori
-
-desc buku
-
-select * from buku 
-
-select * from penerbit
-
-select * from link_buku_kategori
-
-desc link_buku_pengarang
 
 INSERT INTO LINK_BUKU_PENGARANG VALUES ('222-34222-1-0', 'P01');
 INSERT INTO LINK_BUKU_PENGARANG VALUES ('222-34222-1-1', 'P04');
@@ -275,13 +241,4 @@ INSERT INTO LINK_BUKU_KATEGORI VALUES('777-76723-5-3', 5);
 INSERT INTO LINK_BUKU_KATEGORI VALUES('999-11555-2-0', 6);
 INSERT INTO LINK_BUKU_KATEGORI VALUES('999-11555-2-1', 6);
 
-select * from kategori
 
-
-desc pembeli;
-
-alter table pembeli drop ID_pembeli;
-
-
-
-select * from pembeli
