@@ -1,4 +1,2 @@
-# toko-buku-online Kelompok 7 Basis Data PTIK D
+# toko-buku-online 
 -A.Muh.Bintang Palinrungi
--Adnan Nugraha
--Juniati tiku payangan
